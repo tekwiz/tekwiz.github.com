@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>
+  File: ROADMAP
+  
+    &mdash; Documentation by YARD 0.8.2.1
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  hasFrames = window.top.frames.main ? true : false;
+  relpath = '';
+  framesUrl = "frames.html#!" + escape(window.location.href);
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div id="header">
+      <div id="menu">
+  
+    <a href="_index.html">Index</a> &raquo; 
+    <span class="title">File: ROADMAP</span>
+  
+
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
+
+      <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+      Class List
+    </a>
+  
+    <a class="full_list_link" id="method_list_link"
+        href="method_list.html">
+      Method List
+    </a>
+  
+    <a class="full_list_link" id="file_list_link"
+        href="file_list.html">
+      File List
+    </a>
+  
+</div>
+      <div class="clear"></div>
+    </div>
+
+    <iframe id="search_frame"></iframe>
+
+    <div id="content"><div id='filecontents'><h1>Dionysus Roadmap</h1>
+
+<h2>Target: 2.1.x</h2>
+
+<ul>
+<li>Full documentation of current code</li>
+<li>Complete rspecs for current code</li>
+<li><code>rake doc:release</code> to generate and deploy updated documentation
+
+<ul>
+<li>integrate with <code>rake release</code></li>
+</ul></li>
+</ul>
+
+<h2>Target: 2.2</h2>
+
+<ul>
+<li><code>rake version</code> tasks:
+
+<ul>
+<li><code>rake version:bump:(major,minor,patch)</code></li>
+<li><code>rake version:set[number]</code></li>
+</ul></li>
+<li><code>rake spec</code> should run and pass before <code>rake release</code>
+
+<ul>
+<li><code>rake release</code> should then update documentation site with code coverage</li>
+</ul></li>
+<li>Add back String encoding helpers</li>
+<li>Add back String sanitization method(s)</li>
+</ul>
+
+<h2>Target 2.3</h2>
+
+<ul>
+<li>Add back String digest helpers</li>
+</ul>
+
+<h2>Target 2.4</h2>
+
+<ul>
+<li>Add back PasswordSalt class
+
+<ul>
+<li>Integrate with String digest helpers</li>
+</ul></li>
+</ul>
+
+<h2>Target 2.5</h2>
+
+<ul>
+<li>Password generation functionality</li>
+</ul>
+
+<h2>Target 2.6</h2>
+
+<ul>
+<li>Password strength testing functionality
+
+<ul>
+<li>ActiveModel validations for password strength</li>
+</ul></li>
+</ul>
+
+<h2>Future/Ongoing</h2>
+
+<ul>
+<li>Edge rails testing (i.e. Rails 4)</li>
+<li>Edge ruby testing (i.e. Ruby 2)</li>
+</ul>
+</div></div>
+
+    <div id="footer">
+  Generated on Thu Jun 28 15:33:07 2012 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.8.2.1 (ruby-1.9.3).
+</div>
+
+  </body>
+</html>
