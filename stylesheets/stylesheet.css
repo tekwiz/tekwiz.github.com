@@ -8,6 +8,11 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
+p.legal {
+  font-size: 80%;
+  font-variant: small-caps;
+}
+
 /* General & 'Reset' Stuff */
 
 .container {
@@ -275,4 +280,15 @@ a {
  */
 section article {
   margin-left: 1em;
+}
+
+
+/*
+ * Footer
+ */
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+  width: 100%;
 }
